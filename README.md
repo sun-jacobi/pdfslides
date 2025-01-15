@@ -2,15 +2,8 @@
 
 ## Installation
 
-### Prerequisites
-- Python 3.6 or higher
-- Required Python libraries:
-  - `pymupdf`
-  - `python-pptx`
-
-Install the dependencies using:
 ```bash
-pip install pymupdf python-pptx
+pip install pdfslides
 ```
 
 ## Usage
