@@ -11,7 +11,7 @@ pip install pdfslides
 Run the script using the command-line interface:
 
 ```bash
-python script_name.py --pdf input.pdf --output output.pptx --dpi 300
+pdfslides --pdf input.pdf --output output.pptx --dpi 300
 ```
 
 ### Arguments
@@ -22,6 +22,6 @@ python script_name.py --pdf input.pdf --output output.pptx --dpi 300
 ### Example
 Convert a file named `example.pdf` to `example.pptx` with a DPI of 200:
 ```bash
-python script_name.py --pdf example.pdf --output example.pptx --dpi 200
+pdfslides --pdf example.pdf --output example.pptx --dpi 200
 ```
 
