@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdfslides"
+version = "1.0.0"
+description = "A tool to convert PDF files into PowerPoint presentations."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Jia Sun", email = "sun1011jacobi@gmail.com"}
+]
+dependencies = [
+    "pymupdf",
+    "python-pptx"
+]
+requires-python = ">=3.6"
+
+[project.scripts]
+pdfslides = "pdfslides.cli:main"
